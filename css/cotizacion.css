@@ -119,6 +119,7 @@ body {
 .main-content {
     flex: 1;
     padding: 80px 0;
+    margin-top: 10px;
 }
 
 .section-title {
@@ -128,14 +129,68 @@ body {
     font-size: 2.2rem;
     text-transform: uppercase;
     color: var(--text-main);
+    position: absolute;
+    top: 17%;
 }
-
+/* --- CONTENIDO DE COTIZACIÓN --- */
+.content-container{
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
 .content-container p {
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto 20px;
     font-size: 1.15rem;
     text-align: center;
 }
+
+/* --- FORMULARIO DE COTIZACIÓN --- */
+.content-container {
+    padding: 40px 40px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px var(--shadow-dark);
+    position: relative;
+    left: 95%;
+    transform: translateX(-95%);
+}
+.content-container form legend {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.content-container form label {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+.content-container form input,select,
+.content-container form textarea {
+    padding: 10px;
+    border: 1px solid var(--text-muted);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--text-main);
+}
+.content-container form textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+
+
 
 /* --- FOOTER --- */
 footer {

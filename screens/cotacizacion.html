@@ -33,9 +33,42 @@
     <main class="main-content">
         <div class="container">
             <h1 class="section-title">Solicitar Cotización</h1>
+
+            <div class="content-if">
+                <img src="../assets/img/64682c64c8846.jpeg" alt="CIMRO">
+            </div>
+            <!-- Formulario de cotización -->
             <div class="content-container">
-                <p>Contáctenos para obtener una cotización personalizada para sus proyectos industriales.</p>
-                <!-- Aquí va el formulario de cotización -->
+                <form action="cotizacion.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="presupuesto">Presupuesto:</label>
+                    <input type="text" id="presupuesto" name="presupuesto" required>
+                    <br>
+                    <label for="tipoObra">Tipo de obra:</label>
+                    <select id="tipoObra" name="tipoObra" required>
+                        <option value="">Seleccionar</option>
+                        <option value="1">Obra 1</option>
+                        <option value="2">Obra 2</option>
+                        <option value="3">Obra 3</option>
+                    </select>
+                    <br>
+                    <label for="ubicacion">Ubicación:</label>
+                    <input type="text" id="ubicacion" name="ubicacion" required>
+                    <br>
+                    <label for="tamanoProyecto">Tamaño del proyecto:</label>
+                    <input type="text" id="tamanoProyecto" name="tamanoProyecto" required>
+                    <br>
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" name="descripcion" required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+                <!--mensaje de pronto nos contactaremos-->
             </div>
         </div>
     </main>
