@@ -1,2 +1,0 @@
-// este es un ejemplo para el orden de las carpetas
-console.log('hola');
