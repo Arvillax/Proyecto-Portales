@@ -1,0 +1,5 @@
+paleta de colors
+#343434
+#E6B31E
+#FCFAF1
+#CACACA
