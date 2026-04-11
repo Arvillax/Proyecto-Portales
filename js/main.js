@@ -63,3 +63,4 @@ document.addEventListener('DOMContentLoaded', () => {
     fixMobileLayout();
     window.addEventListener('resize', fixMobileLayout);
 });
+
