@@ -21,7 +21,14 @@
                 <ul class="nav-links">
                     <li><a href="../index.html">INICIO</a></li>
                     <li><a href="cotacizacion.html" class="active">COTIZACIÓN</a></li>
-                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li class="menu-item-has-children">
+                        <a href="#">SERVICIOS ▼</a>
+                        <ul class="sub-menu">
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="proyectos.html">Proyectos</a></li>
+                            <li><a href="cotizaciones.html">Solicitar Cotizaciones</a></li>
+                        </ul>
+                    </li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="#">CONTACTO</a></li>
                 </ul>
@@ -29,17 +36,17 @@
         </div>
     </header>
 
-    <!-- Contenido principal - COTIZACIÓN -->
+    <!-- Main Content - COTIZACIÓN -->
     <main class="main-content">
         <div class="container">
             <h1 class="section-title">Solicitar Cotización</h1>
 
             <div class="content-if">
-                <img src="../assets/img/64682c64c8846.jpeg" alt="CIMRO">
+                <!-- El fondo parallax -->
             </div>
             <!-- Formulario de cotización -->
             <div class="content-container">
-                <form action="cotizacion.php" method="post">
+                <form id="cotizacionForm" action="cotizacion.html" method="post">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
                     <br>
@@ -68,7 +75,7 @@
                     <br>
                     <input class="submit-btn" type="submit" value="Enviar">
                 </form>
-                <!--mensaje de pronto nos contactaremos-->
+                <!--mensaje de pronto lo contactaremos-->
             </div>
         </div>
     </main>
@@ -80,5 +87,6 @@
             <p>Servicios Industriales de Alta Calidad</p>
         </div>
     </footer>
+    <script src="../js/formval.js"></script>
 </body>
 </html>
