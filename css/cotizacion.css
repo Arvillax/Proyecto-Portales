@@ -94,6 +94,10 @@ body {
 }
 
 /* --- MENÚ DE NAVEGACIÓN --- */
+.menu-toggle, .menu-close {
+    display: none;
+}
+
 .nav-links {
     display: flex;
     gap: 30px;
@@ -286,7 +290,7 @@ footer p {
 
     /* Menú Hamburguesa */
     .menu-toggle { 
-        display: flex !important; 
+        display: flex; 
         flex-direction: column; 
         gap: 5px; 
         cursor: pointer; 
@@ -304,11 +308,13 @@ footer p {
         position: fixed; 
         left: -100%; 
         top: 0; 
-        width: 100%; 
+        width: 80%; /* Ajustado para que parezca un drawer */
+        max-width: 300px;
         height: 100vh; 
-        background-color: rgba(13, 13, 13, 0.98); 
-        backdrop-filter: blur(10px); 
+        background-color: var(--secondary-color); 
+        box-shadow: 2px 0 10px rgba(0,0,0,0.5);
         display: flex; 
+        flex-direction: column;
         justify-content: flex-start; 
         align-items: flex-start; 
         transition: left 0.4s ease; 
@@ -324,24 +330,24 @@ footer p {
     .nav-links { 
         display: flex; 
         flex-direction: column; 
-        gap: 12px; 
+        gap: 20px; 
         width: 100%; 
     } 
 
     .menu-close { 
-        display: block !important; 
+        display: block; 
         position: absolute; 
         top: 20px; 
         right: 20px; 
         background: none; 
         border: none; 
         color: var(--primary-color); 
-        font-size: 2.5rem; 
+        font-size: 2rem; 
         cursor: pointer; 
     } 
 
     .main-logo { height: 60px; } 
-    .brand-name { font-size: 1rem; } 
+    .brand-name { font-size: 1.2rem; } 
 }
 
 /* Submenús en Escritorio */
