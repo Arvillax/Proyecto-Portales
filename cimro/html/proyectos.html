@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | CIMRO </title>
+    <meta name="description" content="Proyectos de CIMRO: estadios en Juticalpa, Catacamas, Mangulile, Choluteca, primera gramilla híbrida de Perú (VIDENA) y bacheo de calles en Tegucigalpa.">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/proyectos.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-oscuro">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-brand-container">
+                    <a href="../index.html" class="logo-link">
+                        <img src="../imagenes/logo-cimro.png" class="main-logo" alt="Logo CIMRO  - Ingeniería de precisión">
+                        <div class="brand-text">
+                            <span class="brand-name">CIMRO </span>
+                            <span class="brand-slogan">Ingeniería de precisión, cimentando el futuro</span>
+                        </div>
+                    </a>
+                </div>
+                <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <div id="navLinksContainer" class="nav-links-container">
+                    <button id="menuClose" class="menu-close" aria-label="Cerrar menú">&times;</button>
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="#">SERVICIOS ▼</a>
+                            <ul class="sub-menu">
+                                <li><a href="servicios.html">Servicios</a></li>
+                                <li><a href="proyectos.html" class="active">Proyectos</a></li>
+                                <li><a href="cotizacion.html">Solicitar Cotización</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">RECURSOS ▼</a>
+                            <ul class="sub-menu">
+                                <li><a href="Galeria.html">Galería</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Nuestro-equipo.html">Nuestro Equipo</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+
+        <div class="content-if"></div>
+
+        <div class="container" style="position: relative; z-index: 2;">
+
+            <h1 class="section-title">Nuestros Proyectos</h1>
+
+
+            <div class="pry-stats">
+                <div class="pry-stat">
+                    <span class="pry-stat-n">5</span>
+                    <span class="pry-stat-l">Estadios HN</span>
+                </div>
+                <div class="pry-stat">
+                    <span class="pry-stat-n">1</span>
+                    <span class="pry-stat-l">Proyecto Perú</span>
+                </div>
+                <div class="pry-stat">
+                    <span class="pry-stat-n">2</span>
+                    <span class="pry-stat-l">Países</span>
+                </div>
+                <div class="pry-stat">
+                    <span class="pry-stat-n">100%</span>
+                    <span class="pry-stat-l">Completados</span>
+                </div>
+            </div>
+
+        
+            <div class="pry-filtros" role="group" aria-label="Filtrar proyectos">
+                <button class="pry-filtro active" data-filtro="all">Todos</button>
+                <button class="pry-filtro" data-filtro="deportivo">⚽ Canchas</button>
+                <button class="pry-filtro" data-filtro="civil">🏗️ Obra Civil</button>
+                <button class="pry-filtro" data-filtro="internacional">🌎 Internacional</button>
+            </div>
+
+            <!-- PROYECTO DESTACADO: PERÚ -->
+            <article class="pry-destacado" data-cat="internacional deportivo">
+                <div class="pry-dest-foto empty">
+
+                    <img src="../imagenes/Villa_deportiva_peru (1).jpeg" alt="VIDENA Lima Perú primera gramilla híbrida">
+                    <span class="pry-badge">🌎 Internacional</span>
+
+                </div>
+                <div class="pry-dest-body">
+                    <p class="pry-loc">📍 Lima, Perú</p>
+                    <h2>Primera Gramilla Híbrida del Perú — VIDENA</h2>
+                    <p>
+                        Colaboración junto a TMS para la construcción de la primera gramilla híbrida
+                        del Perú en la Villa Deportiva Nacional. Supervisión de arena USGA, nivelación
+                        láser, riego automatizado y siembra de grama híbrida VERTIX para la
+                        Federación Peruana de Fútbol.
+                    </p>
+                    <div class="pry-tags">
+                        <span class="pry-tag">Grama Híbrida VERTIX</span>
+                        <span class="pry-tag">Arena USGA</span>
+                        <span class="pry-tag">Riego Automatizado</span>
+                        <span class="pry-tag">Federación Peruana</span>
+                        <span class="pry-tag">TMS</span>
+                    </div>
+                </div>
+            </article>
+
+
+            <div class="pry-grid" id="pry-grid">
+
+                <!-- Juticalpa -->
+                <article class="pry-card" data-cat="deportivo">
+                    <div class="pry-foto empty">
+                        
+                            <img src="../imagenes/Estadio_Ramon_breve_vargas_juti (1).jpeg" alt="Estadio Juan Ramón Breve Vargas Juticalpa">
+                            <span class="pry-badge">🇭🇳 1ª División</span>
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 Juticalpa, Honduras</p>
+                        <h3>Estadio Juan Ramón Breve Vargas</h3>
+                        <p>Remodelación integral: drenajes pluviales, sistema de riego y grama
+                        híbrida 95% natural. Mantenimiento técnico 3 meses post-obra.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Grama Híbrida 95%</span>
+                            <span class="pry-tag">Drenaje Pluvial</span>
+                            <span class="pry-tag">Riego</span>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="pry-card" data-cat="deportivo">
+                    <div class="pry-foto empty">
+                        <img src="../imagenes/Estadio_Humberto_Micheletti (1).jpeg" alt="Estadio Humberto Micheletti El Progreso Honduras">
+                        <span class="pry-badge">🇭🇳 1ª División</span>
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 El Progreso, Honduras</p>
+                        <h3>Estadio Humberto Micheletti</h3>
+                        <p>Preparación de base, instalación de drenajes y nivelación
+                        de capa de enraizamiento para césped híbrido con Bermuda Ibiza.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Bermuda Ibiza</span>
+                            <span class="pry-tag">Drenajes</span>
+                            <span class="pry-tag">Nivelación</span>
+                            <span class="pry-tag">Césped Híbrido</span>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+
+
+                <!-- Catacamas -->
+                <article class="pry-card" data-cat="deportivo">
+                    <div class="pry-foto empty">
+                        
+                        <img src="../imagenes/Estadio_Ruben_Guifarro (1).jpeg" alt="Estadio Rubén Guifarro Catacamas Primera División">
+                        <span class="pry-badge">🇭🇳 1ª División</span>
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 Catacamas, Honduras</p>
+                        <h3>Estadio Rubén Guifarro</h3>
+                        <p>Nivelación de arena y siembra de Bermuda Ibiza. Mantenimiento integral
+                        3 meses para partidos de Primera División de Honduras.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Bermuda Ibiza</span>
+                            <span class="pry-tag">1ª División</span>
+                            <span class="pry-tag">Nivelación</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Mangulile -->
+                <article class="pry-card" data-cat="deportivo">
+                    <div class="pry-foto empty">
+                        
+                        <img src="../imagenes/Estadio_Roberto_Darío_Cuevas (1).jpg" alt="Estadio Roberto Darío Cuevas Mangulile Olancho">
+                        <span class="pry-badge">🇭🇳 Honduras</span>
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 Mangulile, Honduras</p>
+                        <h3>Estadio Roberto Darío Cuevas</h3>
+                        <p>Gestión integral: nivelación, siembra de grama, marcajes reglamentarios
+                        y consultoría del sistema de riego. Mantenimiento 3 meses.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Gestión Integral</span>
+                            <span class="pry-tag">Marcajes</span>
+                            <span class="pry-tag">Consultoría</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Choluteca -->
+                <article class="pry-card" data-cat="deportivo">
+                    <div class="pry-foto empty">
+
+                        <img src="../imagenes/estadio_fausto_flores (1).jpg" alt="Estadio Fausto Flores Lagos Choluteca">
+                        <span class="pry-badge">🇭🇳 1ª División</span>
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 Choluteca, Honduras</p>
+                        <h3>Estadio Fausto Flores Lagos</h3>
+                        <p>Nivelación, siembra de Bermuda Ibiza, marcajes reglamentarios
+                        y consultoría de sistema de riego. Mantenimiento técnico 3 meses.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Bermuda Ibiza</span>
+                            <span class="pry-tag">Marcajes</span>
+                            <span class="pry-tag">Mantenimiento</span>
+                        </div>
+                    </div>
+                </article>
+
+
+
+                <!-- Chelato Ucles -->
+                <article class="pry-card" data-cat="deportivo">
+                    <div class="pry-foto empty">
+                        
+                        <img src="../imagenes/Estadio_chelato_ucles (1).jpeg" alt="Estadio Roberto Darío Cuevas Mangulile Olancho">
+                        <span class="pry-badge">🇭🇳 1ª División</span>
+
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 Tegucigalpa, Honduras</p>
+                        <h3>Estadio Chelato Uclés</h3>
+                        <p>Remodelación integral: drenajes pluviales, sistema de riego y grama
+                        híbrida 95% natural. Mantenimiento técnico 3 meses post-obra.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Grama Híbrida 95%</span>
+                            <span class="pry-tag">Drenaje Pluvial</span>
+                            <span class="pry-tag">Riego</span>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+
+                <!-- Tegucigalpa - Bacheo -->
+                <article class="pry-card" data-cat="civil">
+                    <div class="pry-foto empty">
+                        
+                        <img src="../imagenes/Bacheo (2).jpeg" alt="Bacheo de calles Tegucigalpa Honduras">
+                        <span class="pry-badge">🏗️ Obra Civil</span>
+                    </div>
+                    <div class="pry-body">
+                        <p class="pry-loc">📍 Tegucigalpa, Honduras</p>
+                        <h3>Bacheo de Calles</h3>
+                        <p>Proyecto de reparación vial en Tegucigalpa. Control de materiales,
+                        manejo de planillas y supervisión técnica directa en campo.</p>
+                        <div class="pry-tags">
+                            <span class="pry-tag">Obra Civil</span>
+                            <span class="pry-tag">Vial</span>
+                            <span class="pry-tag">Supervisión</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- CTA FINAL -->
+            <div class="pry-cta">
+                <h2>¿Su estadio podría ser el próximo?</h2>
+                <p>Desde una cancha de barrio hasta un estadio de Primera División. Sin costo de cotización.</p>
+                <div class="pry-cta-btns">
+                    <a href="cotizacion.html" class="submit-btn">Solicitar Cotización</a>
+                    <a href="servicios.html" class="pry-btn-sec">Ver Servicios</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>CIMRO | Tatumbla, Francisco Morazán</p>
+            <p>Contacto: +504 8952-8094 | Jbrodri07@gmail.com</p>
+            <p>&copy; 2026 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/drawer.js"></script>
+    <script src="../js/proyectos.js"></script>
+
+</body>
+</html>
