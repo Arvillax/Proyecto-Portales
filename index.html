@@ -4,7 +4,7 @@
  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIMRO</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
      <!-- Header -->
@@ -12,8 +12,8 @@
         <div class="container">
             <nav class="navbar">
                 <div class="logo-brand-container">
-                    <a href="../index.html" class="logo-link">
-                        <img src="../assets/img/logo.webp" class="main-logo" alt="Logo CIMRO">
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/img/logo.webp" class="main-logo" alt="Logo CIMRO">
                         <div class="brand-text">
                             <span class="brand-name">CIMRO RODRIGEZ</span>
                             <span class="brand-slogan">Calidad e Innovación Industrial</span>
@@ -31,24 +31,24 @@
                      <button id="menuClose" class="menu-close" aria-label="Cerrar menú">&times;</button>
  
                     <ul class="nav-links">
-                        <li><a href="../index.html">INICIO</a></li>
+                        <li><a href="index.html">INICIO</a></li>
                         <li class="menu-item-has-children">
                             <a href="#">SERVICIOS ▼</a>
                             <ul class="sub-menu">
-                                <li><a href="servicios.html">Servicios</a></li>
-                                <li><a href="proyectos.html" >Proyectos</a></li>
-                                <li><a href="cotizacion.html" class="active">Solicitar Cotizaciones</a></li>
+                                <li><a href="screens/servicios.html">Servicios</a></li>
+                                <li><a href="screens/proyectos.html" >Proyectos</a></li>
+                                <li><a href="screens/cotizacion.html" class="active">Solicitar Cotizaciones</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
                         <a href="#">RECURSOS ▼</a>
                         <ul class="sub-menu">
-                            <li><a href="Galeria.html">Galería</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="faq.html" >FAQ</a></li>
+                            <li><a href="screens/Galeria.html">Galería</a></li>
+                            <li><a href="screens/blog.html">Blog</a></li>
+                            <li><a href="screens/faq.html" >FAQ</a></li>
                         </ul>
-                        <li><a href="equipo.html">Nuestro Equipo</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="screens/equipo.html">Nuestro Equipo</a></li>
+                        <li><a href="screens/faq.html">FAQ</a></li>
                         <li><a href="#">CONTACTO</a></li>
                     </ul>
                 </div>
@@ -59,17 +59,24 @@
         <div class="container-banner">
             <div class="container">
                 <div class="banner-content">
-                <h1>CIMRO RODRIGEZ</h1>
+                <h1>CIMRO RODRIGUEZ</h1>
             </div>
         </div>
         <!-- Presentación de la empresa -->
         <div class="container-empresa">
             <div class="back-plane">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+                <div class="box">
+                    <p>1</p>
+                </div>
+                <div class="box">
+                    <p>2</p>
+                </div>
+                <div class="box">
+                    <p>3</p>
+                </div>
+                <div class="box">
+                    <p>4</p>
+                </div>
             </div>
         </div>
         <!-- Resumen de servicios -->
@@ -85,7 +92,7 @@
             </div>
         </div>
         <!-- Proyectos destacados -->
-         <div class="container-proyectos">
+         <div class="container-proyectos vertical-stack">
             <div class="proyectos">
                 <h2>Proyectos Destacados</h2>
                 <ul >
@@ -99,30 +106,36 @@
                     </li>
                 </ul>
             </div>
+            <div class="carousel"><!--al final lo hice galeria me rendi-->
+                <img src="../assets/img/IMG_1.webp" alt="proyecto 1">
+                <img src="../assets/img/IMG_2.webp" alt="proyecto 2">
+                <img src="../assets/img/IMG_3.webp" alt="proyecto 3">
+                <img src="../assets/img/IMG_4.webp" alt="proyecto 4">
+            </div>
         </div>
         
-        <div class="container-serv">
+        <div class="container-serv testimonios-section vertical-stack">
             <div class="testimonios">
                 <h2>Testimonios</h2>
                 <div class="testi">
                     <h3>club deportital</h3>
-                    <img src="" alt="testimonio">
-                    <p>1</p>
+                    <img src="../assets/img/logo.webp" alt="testimonio">
+                    <p>Excelente servicio y calidad en el mantenimiento de nuestras instalaciones.</p>
                 </div>
                 <div class="testi">
                     <h3>club deportital</h3>
-                    <img src="" alt="testimonio">
-                    <p>1</p>
+                    <img src="../assets/img/logo.webp" alt="testimonio">
+                    <p>Innovación y compromiso en cada proyecto realizado.</p>
                 </div>
                 <div class="testi">
                     <h3>club deportital</h3>
-                    <img src="" alt="testimonio">
-                    <p>1</p>
+                    <img src="../assets/img/logo.webp" alt="testimonio">
+                    <p>Profesionalismo impecable en el bacheo industrial.</p>
                 </div>
                 <div class="testi">
                     <h3>club deportital</h3>
-                    <img src="" alt="testimonio">
-                    <p>1</p>
+                    <img src="../assets/img/logo.webp" alt="testimonio">
+                    <p>Resultados duraderos y atención personalizada.</p>
                 </div>
             </div>
         </div>
@@ -133,6 +146,6 @@
             <p>Servicios Industriales de Alta Calidad</p>
         </div>
     </footer>
-    <script src="../js/drawer.js"></script>
+    <script src="js/drawer.js"></script>
 </body>
 </html>
