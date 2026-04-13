@@ -268,7 +268,7 @@ footer p {
     
     .menu-item-has-children > a { 
         display: flex; 
-        justify-content: space-between; 
+        justify-content: center; 
         align-items: center; 
         color: var(--text-light); 
         padding: 8px 0; 
@@ -306,9 +306,13 @@ footer p {
         cursor: pointer; 
         background: none; 
         border: none; 
-        position: relative;
-        transform: translateX(0);
-        transition: transform 0.3s ease;
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        z-index: 1001;
+        
+        
+
     } 
     
     .bar { 
@@ -368,8 +372,6 @@ footer p {
 @media (min-width: 769px) { 
     .menu-item-has-children { 
         position: relative; 
-        transform: translateX(-50%);
-    
     } 
     
     .sub-menu { 
