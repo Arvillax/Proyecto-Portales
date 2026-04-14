@@ -575,45 +575,99 @@ li a:hover {
     .container-banner,
     .container-empresa,
     .container-serv,
-    .container-proyectos {
+    .container-proyectos,
+    .container-serv.testimonios-section {
         background-attachment: scroll;
+        min-height: auto;
+        padding: 60px 20px;
     }
 
+    .container-banner {
+        min-height: calc(80vh - var(--header-height));
+    }
+
+    /* Empresa Section */
+    .back-plane {
+        column-count: 1;
+        padding: 40px 0;
+    }
 
     .box {
-        width: 110px;
-        height: 110px;
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        padding: 20px;
+        margin-bottom: 20px;
     }
-    .box uno {
-        background-color: var(--primary-color);
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 0;
+
+    .box h3 {
+        font-size: 1.5rem;
     }
-    .box dos {
-        background-color: var(--primary-color);
+
+    .box p {
+        font-size: 1rem;
     }
-    .box tres {
-        background-color: var(--primary-color);
+
+    /* Servicios Section */
+    .lista {
+        transform: none;
+        padding: 40px 0;
     }
-    .box cuatro {
-        background-color: var(--primary-color);
+
+    .lista h2::after {
+        margin: 12px auto 30px;
     }
+
+    .lista ul {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .lista ul li {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .lista ul li h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    /* Proyectos Section */
+    .proyectos {
+        padding: 0;
+    }
+
+    .proyectos ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyectos ul li {
+        max-width: 100%;
+        width: 100%;
+    }
+
     .carousel img {
         width: 100%;
-        height: 180px;
+        height: auto;
+        aspect-ratio: 4/3;
+    }
+
+    /* Testimonios Section */
+    .testimonios {
+        padding: 40px 0;
     }
 
     .testi {
         max-width: 100%;
         width: 100%;
         display: block;
-        margin: 10px 0;
-    }
-
-    .proyectos ul li {
-        max-width: 100%;
+        margin: 15px 0;
+        height: auto;
+        min-height: 250px;
     }
 }
 
