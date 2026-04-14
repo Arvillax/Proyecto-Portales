@@ -450,6 +450,26 @@ li a:hover {
     margin-bottom: 8px;
 }
 
+.btn-proyectos {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-proyectos:hover {
+    background: var(--text-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
 .proyectos ul li p {
     color: rgba(255, 255, 255, 0.70);
     font-size: 0.9rem;
