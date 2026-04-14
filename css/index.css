@@ -236,7 +236,7 @@ main {
 
 .box {
     width: 600px;
-    height: 500px;
+    height: 420px;
     border: 2px solid var(--primary-color);
     margin-bottom: 20px;
     background: rgba(230, 179, 30, 0.08);
@@ -251,13 +251,13 @@ main {
 .box h3, p {
     font-family: 'Oswald', sans-serif;
     color: var(--text-light);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-weight: 700;
     letter-spacing: 1px;
     margin: 10px;
 }
 .box h3 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 
@@ -357,6 +357,15 @@ main {
 }
 .lista {
     transform: translateX(-60px);
+}
+.lista ul li a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+li a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 /* --- SECCIÓN: PROYECTOS DESTACADOS --- */
