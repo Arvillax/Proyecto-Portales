@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Título de la Página | CIMRO Rodríguez</title>
+    <meta name="description" content="Descripción de la página para SEO.">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
-    <H1>hola</H1>
+
+    <header class="header-oscuro">
+        <nav class="navbar container">
+            <div class="logo-brand-container">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/img/logo-cimro.png" alt="Logo CIMRO Rodríguez - Ingeniería de precisión" class="main-logo">
+                    <div class="brand-text">
+                        <span class="brand-name">CIMRO RODRÍGUEZ</span>
+                        <span class="brand-slogan">Ingeniería de precisión, cimentando el futuro</span>
+                    </div>
+                </a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="nav-links-container">
+                <button class="menu-close" aria-label="Cerrar menú">&times;</button>
+                <ul class="nav-links">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li class="menu-item-has-children">
+                        <a href="#">SERVICIOS ▼</a>
+                        <ul class="sub-menu">
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="proyectos.html">Proyectos</a></li>
+                            <li><a href="cotizaciones.html">Solicitar Cotizaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">RECURSOS ▼</a>
+                        <ul class="sub-menu">
+                            <li><a href="Galeria.html">Galería</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Nuestro-equipo.html">Nuestro Equipo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- CONTENIDO ESPECÍFICO DE CADA PÁGINA -->
+            <h1 class="section-title">Título de la Página</h1>
+            <p>Contenido de la página...</p>
+            <!-- FIN DEL CONTENIDO ESPECÍFICO -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>CIMRO RODRÍGUEZ | Tatumbla, Francisco Morazán</p>
+            <p>Contacto: +504 8952-8094 | Jbrodri07@gmail.com</p>
+            <p>&copy; 2026 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
