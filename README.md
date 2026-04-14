@@ -6,7 +6,7 @@
 | 2 | Jesus Fernando Moreno Martinez | 0801200601010 |
 | 3 | Edwin Rene Acosta Rodriguez | 0101200504493 |
 | 4 | Francisco Javier Martínez Orellana | 0801200117824 |
-| 5 | Armando Jose Villamil Cruz | — |
+| 5 | Armando Jose Villamil Cruz | 1001200200132 |
  ---
  
 > Universidad Catolica de Honduras
